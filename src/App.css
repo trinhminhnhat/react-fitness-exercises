@@ -32,7 +32,7 @@ body {
     transition: 0.3s all ease-in-out;
 }
 
-.right-arrow {
+.left-arrow {
     right: 140px;
 }
 
@@ -42,9 +42,9 @@ body {
 }
 
 .react-horizontal-scrolling-menu--wrapper {
-    width: 100%;
+    /* width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
 }
 
 .detail-image {
