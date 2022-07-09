@@ -26,7 +26,7 @@ body {
     font-size: 25px;
     border-radius: 4px;
     position: absolute;
-    bottom: -20px;
+    bottom: -42px;
     right: 80px;
     transform: scale(1, 1);
     transition: 0.3s all ease-in-out;
@@ -110,15 +110,6 @@ body {
         height: 300px;
     }
 
-    .react-horizontal-scrolling-menu--scroll-container {
-        width: 500px;
-    }
-
-    .left-arrow,
-    .right-arrow {
-        position: static !important;
-    }
-
     .hero-banner-img {
         display: none;
     }
@@ -136,5 +127,15 @@ body {
 @media screen and (max-width: 400px) {
     .exercise-card {
         width: 280px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .left-arrow {
+        right: 90px;
+    }
+
+    .right-arrow {
+        right: 30px;
     }
 }
