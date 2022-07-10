@@ -8,7 +8,6 @@ import SearchExercises from '../components/SearchExercises';
 const Home = () => {
     const [exercises, setExercises] = useState([]);
     const [bodyPart, setBodyPart] = useState('all');
-    console.log('bodyPart: ', bodyPart);
 
     return (
         <Box>

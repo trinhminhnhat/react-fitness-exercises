@@ -22,7 +22,6 @@ const ExerciseDetail = () => {
             const youtubeSearchUrl = process.env.REACT_APP_YOUTUBE_EXERCISE_API_BASE_URL;
 
             const exerciseDetailData = await fetchData(`${exerciseDbUrl}/exercise/${id}`, exerciseOptions);
-            console.log('exerciseDetailData: ', exerciseDetailData);
             setExerciseDetail(exerciseDetailData);
 
             const exerciseVideosData = await fetchData(
